@@ -1,0 +1,17 @@
+{
+  "name": "devfest2013_backend",
+  "description": "Backend server for the code lab session, (Google DevFest Algiers 2013)",
+  "version": "1.0.0",
+  "author": {
+    "name": "Nabil HACHICHA",
+    "email": "nabil.hachicha [at] gmail .com"
+  },
+  "dependencies": {
+    "sqlite3": "2.1.18",
+    "formidable": "1.0.14"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  }
+}
