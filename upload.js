@@ -29,8 +29,8 @@ var server = http.createServer(function(req, res) {
     }
 });
 
-// Server would listen on port 80
-server.listen(5000);
+// http://stackoverflow.com/questions/15693192
+server.listen(process.env.PORT || 5000)
 
 function upload_file(req, res) {
     // parse a file upload
